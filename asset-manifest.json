@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/en_tourinkorea/static/css/main.d670c854.css",
+    "main.js": "/en_tourinkorea/static/js/main.ed4559f1.js",
+    "static/js/453.8841d4bd.chunk.js": "/en_tourinkorea/static/js/453.8841d4bd.chunk.js",
+    "static/media/main_banner1.jpg": "/en_tourinkorea/static/media/main_banner1.835c2c47eb20d23d86b1.jpg",
+    "static/media/main_banner6.jpg": "/en_tourinkorea/static/media/main_banner6.130c2fe4fa6898021108.jpg",
+    "static/media/main_banner5.jpg": "/en_tourinkorea/static/media/main_banner5.c94cd4290aa0921d9176.jpg",
+    "static/media/main_banner7.jpg": "/en_tourinkorea/static/media/main_banner7.e56a4afc8c4c95ba1032.jpg",
+    "static/media/main_banner4.jpg": "/en_tourinkorea/static/media/main_banner4.ccff5523d208ddbb1120.jpg",
+    "static/media/main_banner2.jpg": "/en_tourinkorea/static/media/main_banner2.4b5e128c9bba376685bc.jpg",
+    "static/media/main_banner3.jpg": "/en_tourinkorea/static/media/main_banner3.5057d2b001133f8c8824.jpg",
+    "service-worker.js": "/en_tourinkorea/service-worker.js",
+    "static/media/logo_main_w.svg": "/en_tourinkorea/static/media/logo_main_w.03518c59d24b9c7ecde23b89d886f81b.svg",
+    "static/media/logo_main.svg": "/en_tourinkorea/static/media/logo_main.6ab25c2ddabbd4bf8adf70e63f15b4db.svg",
+    "index.html": "/en_tourinkorea/index.html",
+    "main.d670c854.css.map": "/en_tourinkorea/static/css/main.d670c854.css.map",
+    "main.ed4559f1.js.map": "/en_tourinkorea/static/js/main.ed4559f1.js.map",
+    "453.8841d4bd.chunk.js.map": "/en_tourinkorea/static/js/453.8841d4bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d670c854.css",
+    "static/js/main.ed4559f1.js"
+  ]
+}
