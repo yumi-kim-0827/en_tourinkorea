@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+/* Common */
+html {
+  font-size: 16px;
+  word-break: keep-all;
+  line-height: 1.5;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+a,
+button,
+select,
+figure {
+  margin: 0;
+  padding: 0;
+  font-family: "NEXON Lv2 Gothic", sans-serif;
+  box-sizing: border-box;
+  word-break: keep-all;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img,
+fieldset {
+  border: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul,
+ol {
+  list-style: none;
 }
-
-.App-link {
-  color: #61dafb;
+em,
+address {
+  font-style: normal;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none !important;
 }
+button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+/* Home */
