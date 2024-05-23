@@ -1,5 +1,6 @@
 import axios from "axios";
 const SERVICE_KEY = process.env.REACT_APP_API_KEY;
+const API_URL = process.env.REACT_APP_OPEN;
 
 // [API GET] FESTIVAL 조회
 export const getFestival = async ({ regionNumb, currentPage }) => {
@@ -53,7 +54,7 @@ export const getFood = async ({ regionNumb, currentPage }) => {
 // [API GET] Review 조회
 export const getReviews = async () => {
   try {
-    const responses = await axios.get("http://localhost:8000/api/reviews");
+    const responses = await axios.get(`https://${API_URL}`);
     const datas = responses.data;
     return datas;
   } catch (error) {
@@ -63,10 +64,17 @@ export const getReviews = async () => {
 // [API POST] Review 전송
 export const postReviews = async (review) => {
   try {
-    const responses = await axios.post(
-      "http://localhost:8000/api/reviews",
-      review
-    );
+    const responses = await axios.post(`https://${API_URL}`, {
+      subjectId: 0,
+      content: review,
+      like: 12,
+      dislike: 12,
+      team: "string",
+      answer: {
+        content: "string",
+        isRejected: true,
+      },
+    });
     console.log(responses);
     return responses;
   } catch (error) {
