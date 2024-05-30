@@ -24,7 +24,10 @@ function App() {
           property="og:title"
           content="Explore Korea: Your Ultimate Travel Destination"
         />
-        <meta property="og:url" content="사이트 주소" />
+        <meta
+          property="og:url"
+          content="https://yumi-kim-0827.github.io/en_tourinkorea/"
+        />
         <meta
           property="og:description"
           content="Discover the wonders of Korea with our comprehensive travel guide. From vibrant cities to serene landscapes, experience the best of Korean culture, cuisine, and attractions."
