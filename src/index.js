@@ -10,8 +10,7 @@ import { HelmetProvider } from "react-helmet-async";
 const root = document.getElementById("root");
 const app = (
   <HelmetProvider>
-    <BrowserRouter>
-      {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
   </HelmetProvider>
