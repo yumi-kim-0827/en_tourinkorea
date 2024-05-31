@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/en_tourinkorea/static/css/main.6f5690a7.css",
-    "main.js": "/en_tourinkorea/static/js/main.985cf8cf.js",
+    "main.js": "/en_tourinkorea/static/js/main.45314af6.js",
     "static/js/453.8841d4bd.chunk.js": "/en_tourinkorea/static/js/453.8841d4bd.chunk.js",
     "static/media/main_banner1.jpg": "/en_tourinkorea/static/media/main_banner1.835c2c47eb20d23d86b1.jpg",
     "static/media/main_banner6.jpg": "/en_tourinkorea/static/media/main_banner6.130c2fe4fa6898021108.jpg",
@@ -15,11 +15,11 @@
     "static/media/logo_main.svg": "/en_tourinkorea/static/media/logo_main.6ab25c2ddabbd4bf8adf70e63f15b4db.svg",
     "index.html": "/en_tourinkorea/index.html",
     "main.6f5690a7.css.map": "/en_tourinkorea/static/css/main.6f5690a7.css.map",
-    "main.985cf8cf.js.map": "/en_tourinkorea/static/js/main.985cf8cf.js.map",
+    "main.45314af6.js.map": "/en_tourinkorea/static/js/main.45314af6.js.map",
     "453.8841d4bd.chunk.js.map": "/en_tourinkorea/static/js/453.8841d4bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f5690a7.css",
-    "static/js/main.985cf8cf.js"
+    "static/js/main.45314af6.js"
   ]
 }
