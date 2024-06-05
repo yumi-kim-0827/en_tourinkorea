@@ -5,7 +5,6 @@ function Paginate({ totalList, currentPage, setCurrentPage }) {
   const recordPerPage = 16; //한 페이지에 12개씩 보여주기
   const totalPage = Math.ceil(totalList / recordPerPage); //전체 페이지 수
   const totalPageArray = [...new Array(totalPage + 1).keys()].slice(1); //총 페이지 배열
-
   const [showPages, setShowPages] = useState([]); //보여줄 페이지 배열
   const [startIdx, setStartIdx] = useState(0); //시작페이지
   const [endIdx, setEndIdx] = useState(5); //끝페이지
@@ -69,6 +68,5 @@ function Paginate({ totalList, currentPage, setCurrentPage }) {
     </div>
   );
 }
-
 const memoizedPaginate = memo(Paginate);
 export default memoizedPaginate;

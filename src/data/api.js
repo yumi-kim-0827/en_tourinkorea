@@ -1,6 +1,7 @@
 import axios from "axios";
 const SERVICE_KEY = process.env.REACT_APP_API_KEY;
 const API_URL = process.env.REACT_APP_OPEN;
+const YOUTUBE_KEY = process.env.REACT_APP_YOUTUBE_KEY;
 
 // [API GET] FESTIVAL 조회
 export const getFestival = async ({ regionNumb, currentPage }) => {
@@ -77,6 +78,18 @@ export const postReviews = async (review) => {
     });
     console.log(responses);
     return responses;
+  } catch (error) {
+    console.log(error);
+  }
+};
+// [API GET] Review 전송
+export const getYoutube1 = async () => {
+  try {
+    const responses = await axios.get(
+      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=8&order=date&q=trip%20South%20Korea&type=video&fields=items(id%2C%20snippet(title))&key=${YOUTUBE_KEY}`
+    );
+    const datas = responses.data;
+    return datas;
   } catch (error) {
     console.log(error);
   }
