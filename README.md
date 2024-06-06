@@ -10,7 +10,7 @@ https://yumi-kim-0827.github.io/en_tourinkorea
 
 <!--프로젝트 대문 이미지-->
 
-![스크린샷 2024-05-29 172517](https://github.com/yumi-kim-0827/simpletodo/assets/116349476/4a354f3a-5851-4879-89cd-6e297135ca4d)
+![스크린샷 2024-06-06 025901](https://github.com/yumi-kim-0827/en_tourinkorea/assets/116349476/3bd1a302-b411-4775-977c-0ef16474c3f2)
 
 <!--목차-->
 
@@ -48,6 +48,7 @@ https://yumi-kim-0827.github.io/en_tourinkorea
 - Axios
 - react-helmet-async
 - react-router-dom
+- BS react
 
 # [2] Getting Started
 
@@ -197,7 +198,7 @@ export default memoizedPaginate;
 
 # [5] Acknowledgement
 
-- design https://www.behance.net/gallery/197368319/Salesforce-CRM-AI-Scheduler-UX-UI-Design?tracking_source=search_projects&l=5
+- reference https://knto.or.kr/eng/index
 
 # [6] Contact
 
